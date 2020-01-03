@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'saasquatch-sdk-swift'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'The Swift version of the Referral SaaSquatch IOS SDK'
   s.description      = <<-DESC
 This SDK was built to interact with Referral Saasquatch. For more information, please visit https://docs.referralsaasquatch.com/mobile/ios/
