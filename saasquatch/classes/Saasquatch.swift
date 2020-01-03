@@ -85,7 +85,7 @@ open class Saasquatch {
             
             var encoding = String.Encoding.utf8
             if let textEncodingName = response?.textEncodingName {
-                let cfStringEncoding = CFStringConvertIANACharSetNameToEncoding(textEncodingName as CFString!)
+                let cfStringEncoding = CFStringConvertIANACharSetNameToEncoding(textEncodingName as CFString)
                 encoding = String.Encoding(rawValue: CFStringConvertEncodingToNSStringEncoding(cfStringEncoding))
             }
             
@@ -168,7 +168,7 @@ open class Saasquatch {
             
             var encoding = String.Encoding.utf8
             if let textEncodingName = response?.textEncodingName {
-                let cfStringEncoding = CFStringConvertIANACharSetNameToEncoding(textEncodingName as CFString!)
+                let cfStringEncoding = CFStringConvertIANACharSetNameToEncoding(textEncodingName as CFString)
                 encoding = String.Encoding(rawValue: CFStringConvertEncodingToNSStringEncoding(cfStringEncoding))
             }
             
@@ -251,7 +251,7 @@ open class Saasquatch {
             
             var encoding = String.Encoding.utf8
             if let textEncodingName = response?.textEncodingName {
-                let cfStringEncoding = CFStringConvertIANACharSetNameToEncoding(textEncodingName as CFString!)
+                let cfStringEncoding = CFStringConvertIANACharSetNameToEncoding(textEncodingName as CFString)
                 encoding = String.Encoding(rawValue: CFStringConvertEncodingToNSStringEncoding(cfStringEncoding))
             }
             
@@ -608,7 +608,7 @@ open class Saasquatch {
             
             var encoding = String.Encoding.utf8
             if let textEncodingName = response?.textEncodingName {
-                let cfStringEncoding = CFStringConvertIANACharSetNameToEncoding(textEncodingName as CFString!)
+                let cfStringEncoding = CFStringConvertIANACharSetNameToEncoding(textEncodingName as CFString)
                 encoding = String.Encoding(rawValue: CFStringConvertEncodingToNSStringEncoding(cfStringEncoding))
             }
             
